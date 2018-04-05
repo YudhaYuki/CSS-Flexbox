@@ -27,9 +27,18 @@
 
     // grow, shrink, bases
     flex: 0 0 18%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .hotel-view {
+    background-color: #fff;
+
+    //TEST
     background-color: orangered;
+    height: 80rem;
+
     flex: 1;    
 }
